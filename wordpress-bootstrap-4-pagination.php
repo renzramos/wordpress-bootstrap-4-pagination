@@ -1,5 +1,7 @@
 <?php
- 
+
+function boostrap_4_pagination(){
+
     if( is_singular() )
         return;
  
