@@ -1,6 +1,6 @@
 <?php
 /*
-* Boostrap 4 Pagation for WordPress
+* Boostrap 4 Pagination for WordPress
 * Author: Renz R.
 * Author URL: https://www.renzramos.com
 * Created At: 2019-01-01
