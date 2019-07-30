@@ -1,4 +1,12 @@
 <?php
+/*
+* Boostrap 4 Pagation for WordPress
+* Author: Renz R.
+* Author URL: https://www.renzramos.com
+* Created At: 2019-01-01
+* Updated At: 2019-07-30
+* Intructions: Include this file and then use boostrap_4_pagination() after the loop.
+*/
 
 function boostrap_4_pagination(){
 
