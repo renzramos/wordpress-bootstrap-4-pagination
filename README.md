@@ -1,17 +1,20 @@
-# Project Title
+# Boostrap 4 Pagination for WordPress
 
 Boostrap 4 Pagination for WordPress
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Include this file in your functions.php
+```
+include_once('wordpress-bootstrap-4-pagination.php');
+```
 
 ### Prerequisites
 
 What things you need to install the software and how to install them
 
 ```
-Give examples
+WordPress
 ```
 
 ### Installing
@@ -58,9 +61,7 @@ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Renz Ramos](http://www.renzramos.com/) - Developer
 
 ## Contributing
 
@@ -72,7 +73,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Renz Ramos* - *Initial work* - [renzramos](https://github.com/renzramos)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
