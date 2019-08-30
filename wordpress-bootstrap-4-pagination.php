@@ -15,7 +15,7 @@ function boostrap_4_pagination(){
  
     global $wp_query;
  
-    /** Stop execution if there's only 1 page */
+    /** Check number of pages **/
     if( $wp_query->max_num_pages <= 1 )
         return;
  
@@ -76,6 +76,11 @@ function boostrap_4_pagination(){
     echo '</ul></div>' . "\n";
  
 }
+
+
+/*
+* Custom Attribute for links
+*/
 
 add_filter('next_posts_link_attributes', 'boostrap_4_pagination_posts_link_attributes');
 add_filter('previous_posts_link_attributes', 'boostrap_4_pagination_posts_link_attributes');
