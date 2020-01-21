@@ -8,7 +8,7 @@
 * Intructions: Include this file and then use boostrap_4_pagination() after the loop.
 */
 
-function boostrap_4_pagination(){
+function wp_boostrap_4_pagination(){
 
     if( is_singular() )
         return;
@@ -82,9 +82,9 @@ function boostrap_4_pagination(){
 * Custom Attribute for links
 */
 
-add_filter('next_posts_link_attributes', 'boostrap_4_pagination_posts_link_attributes');
-add_filter('previous_posts_link_attributes', 'boostrap_4_pagination_posts_link_attributes');
+add_filter('next_posts_link_attributes', 'wp_boostrap_4_pagination_posts_link_attributes');
+add_filter('previous_posts_link_attributes', 'wp_boostrap_4_pagination_posts_link_attributes');
 
-function boostrap_4_pagination_posts_link_attributes() {
+function wp_boostrap_4_pagination_posts_link_attributes() {
     return 'class="page-link"';
 }
