@@ -4,7 +4,7 @@
 * Author: Renz R.
 * Author URL: https://www.renzramos.com
 * Created At: 2019-01-01
-* Updated At: 2019-07-30
+* Updated At: 2021-02-08
 * Intructions: Include this file and then use wp_boostrap_4_pagination() after the loop.
 */
 
