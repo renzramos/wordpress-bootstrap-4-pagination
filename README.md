@@ -1,7 +1,7 @@
-# Boostrap 4 Pagination for WordPress
+# Bootstrap 4 Pagination for WordPress
 
-Boostrap 4 Pagination for WordPress
-(Boostrap 5 supported)
+Bootstrap 4 Pagination for WordPress
+(Bootstrap 5 supported)
 
 ## Getting Started
 
